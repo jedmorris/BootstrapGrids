@@ -18,3 +18,11 @@ main>.container {
 	background-attachment: fixed;
 	background: url(../img/GridBG.png);
 }
+
+.titleText {
+	font-family: 'Jacques Francois Shadow', cursive;
+	font-size: 4em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: yellow;
+}
