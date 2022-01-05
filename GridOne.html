@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
 
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Bootstrap Grids</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,12 +65,16 @@
 
 	<main class="flex-shrink-0">
 		<div class="container mt-1 h-100 minHeight">
-			<div class="row h-100">
-				<div class="col">
-					<div class="bg-dark h-100 text-light">COL ONE</div>
+			<div class="row row-cols-1 row-cols-md-2 h-100 gy-3">
+				<div class="col-md-8">
+					<div class="bg-dark h-100 text-light">
+						COL ONE
+					</div>
 				</div>
-				<div class="col">
-					<div class="bg-secondary h-100 text-light">COL TWO</div>
+				<div class="col-md-4">
+					<div class="bg-secondary h-100 text-light">
+						COL TWO
+					</div>
 				</div>
 			</div>
 		</div>
